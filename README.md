@@ -34,25 +34,30 @@ The goal was to keep the architecture simple, scalable, and production-ready wit
 ## 🌐 Live Link
 
 **Live Link:**   
-`https://your-project-name.vercel.app`
+https://bot-gauge-assignment.vercel.app/
 
 
 
 ## 💻 How to Run Locally
 
 ### 1️⃣ Clone the repository
-git clone https://github.com/cretos20/BotGauge_assignment.git
+
+git clone `https://github.com/cretos20/BotGauge_assignment.git`
 
 ### 2️⃣ Navigate into the project
+
 cd BotGauge_assignment
 
 3️⃣ Install dependencies
+
 npm install
 
 4️⃣ Start development server
+
 npm run dev
 
 5️⃣ Open in browser
+
 http://localhost:5173/
 
 
