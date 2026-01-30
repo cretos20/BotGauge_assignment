@@ -1,16 +1,72 @@
-# React + Vite
+# Items Modal Component – React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A professional, production-ready React modal component for selecting items from multiple categories (Fruits & Vegetables). Built using modern React patterns, Vite, and CSS Modules.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## React Compiler
+## 📋 Table of Contents
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- [Approach](#-approach)  
+- [Live Link](#-live-link)  
+- [How to Run Locally](#-how-to-run-locally)  
+- [AI/LLM Usage](#-aillm-usage)  
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## 🧠 Approach
+
+The project was developed by breaking the requirements into focused parts — modal UI, tab navigation, search functionality, item selection, and validation logic.
+
+A clean component hierarchy was designed where the parent component (`ItemsModal`) manages all state, and child components remain modular and reusable.
+
+### Key Decisions
+
+- **Centralized state management** for clarity and easier debugging  
+- **Set data structure** for fast O(1) selection lookups  
+- **Debounced search (150ms)** to improve performance  
+- **CSS Modules** for scoped, maintainable styling  
+- **Immutable state updates** to follow React best practices  
+
+The goal was to keep the architecture simple, scalable, and production-ready without adding unnecessary dependencies.
+
+
+
+## 🌐 Live Link
+
+**Live Link:**   
+`https://your-project-name.vercel.app`
+
+
+
+## 💻 How to Run Locally
+
+### 1️⃣ Clone the repository
+git clone https://github.com/cretos20/BotGauge_assignment.git
+
+### 2️⃣ Navigate into the project
+cd BotGauge_assignment
+
+3️⃣ Install dependencies
+npm install
+
+4️⃣ Start development server
+npm run dev
+
+5️⃣ Open in browser
+http://localhost:5173/
+
+
+
+## 🤖 AI/LLM Usage
+
+AI tools and online resources were used responsibly during development for assistance and learning purposes:
+
+1. **CSS Styling** – Assisted using Claude.ai  
+2. **Syntax References** – Verified using W3Schools and Claude.ai  
+3. **README Documentation** – Structured with the help of GitHub Copilot  
+4. **Error Resolution & Debugging** – Researched via StackOverflow, Copilot, and Claude.ai  
+
+
+
+
+
